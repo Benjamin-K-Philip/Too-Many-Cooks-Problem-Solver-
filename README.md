@@ -4,6 +4,8 @@
 One small Python tool that solves two versions of the same problem:
 **many capable people, zero coordination.**
 
+---
+
 ## Requirements
 ```
 pip install scipy
@@ -34,7 +36,7 @@ each tagged with the editor's name. Optional per-editor trust scores.
 **Output:** One merged document in one voice, plus a decision log that
 explains *why* each version won.
 
-## Problem 2 — Eleven players who all want to be striker
+## Problem 2 — Eleven football players who all want to be striker in the same team 
 **Input:** Players with a skill rating per role (GK/DEF/MID/FWD) and a
 preferred role (in the sample everyone prefers FWD).
 
