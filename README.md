@@ -1,5 +1,6 @@
-# Too Many Cooks — a conflict-resolution & role-assignment tool
+# Too Many Cooks Problem Solver
 
+## Description
 One small Python tool that solves two versions of the same problem:
 **many capable people, zero coordination.**
 
@@ -9,7 +10,7 @@ pip install scipy
 ```
 (everything else is the Python standard library)
 
-## Run it
+## How to run on VS Code 
 ```
 python too_many_cooks.py demo                   # both problems, sample data
 python too_many_cooks.py merge  sample_edits.json
