@@ -35,16 +35,16 @@ each tagged with the editor's name. Optional per-editor trust scores.
 explains *why* each version won.
 
 ## Problem 2 — Eleven players who all want to be striker
-Input: players with a skill rating per role (GK/DEF/MID/FWD) and a
+**Input:** Players with a skill rating per role (GK/DEF/MID/FWD) and a
 preferred role (in the sample, everyone prefers FWD).
 
-Decision logic: this is the classic **assignment problem**. The tool builds
+**Decision logic:** this is the classic **assignment problem**. The tool builds
 an 11×11 skill matrix and runs the **Hungarian algorithm**
 (`scipy.optimize.linear_sum_assignment`) to find the one-to-one
 player→role assignment that maximizes total team skill. A tiny +0.1
 preference bonus means a player gets their wish *only when the team
 doesn't pay for it*.
 
-Output: the optimal lineup, and a comparison — in the sample data the
+**Output:** the optimal lineup, and a comparison — in the sample data the
 "everyone plays striker" team scores 714 total skill while the optimized
 lineup scores 963 (**+35%**), which is the whole moral of the story.
