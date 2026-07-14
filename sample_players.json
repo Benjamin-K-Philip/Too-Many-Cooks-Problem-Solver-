@@ -1,0 +1,114 @@
+{
+  "players": [
+    {
+      "name": "Marco",
+      "preference": "FWD",
+      "skills": {
+        "GK": 40,
+        "DEF": 55,
+        "MID": 70,
+        "FWD": 92
+      }
+    },
+    {
+      "name": "Luis",
+      "preference": "FWD",
+      "skills": {
+        "GK": 35,
+        "DEF": 60,
+        "MID": 75,
+        "FWD": 88
+      }
+    },
+    {
+      "name": "Kofi",
+      "preference": "FWD",
+      "skills": {
+        "GK": 30,
+        "DEF": 85,
+        "MID": 65,
+        "FWD": 60
+      }
+    },
+    {
+      "name": "Sergio",
+      "preference": "FWD",
+      "skills": {
+        "GK": 25,
+        "DEF": 90,
+        "MID": 60,
+        "FWD": 55
+      }
+    },
+    {
+      "name": "Yuto",
+      "preference": "FWD",
+      "skills": {
+        "GK": 20,
+        "DEF": 82,
+        "MID": 70,
+        "FWD": 58
+      }
+    },
+    {
+      "name": "Pavel",
+      "preference": "FWD",
+      "skills": {
+        "GK": 30,
+        "DEF": 88,
+        "MID": 55,
+        "FWD": 50
+      }
+    },
+    {
+      "name": "Amir",
+      "preference": "FWD",
+      "skills": {
+        "GK": 25,
+        "DEF": 65,
+        "MID": 90,
+        "FWD": 70
+      }
+    },
+    {
+      "name": "Jonas",
+      "preference": "FWD",
+      "skills": {
+        "GK": 20,
+        "DEF": 60,
+        "MID": 87,
+        "FWD": 68
+      }
+    },
+    {
+      "name": "Diego",
+      "preference": "FWD",
+      "skills": {
+        "GK": 15,
+        "DEF": 55,
+        "MID": 85,
+        "FWD": 72
+      }
+    },
+    {
+      "name": "Theo",
+      "preference": "FWD",
+      "skills": {
+        "GK": 30,
+        "DEF": 62,
+        "MID": 83,
+        "FWD": 66
+      }
+    },
+    {
+      "name": "Ivan",
+      "preference": "FWD",
+      "skills": {
+        "GK": 93,
+        "DEF": 50,
+        "MID": 40,
+        "FWD": 35
+      }
+    }
+  ]
+}

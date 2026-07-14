@@ -1,0 +1,69 @@
+{
+  "trust_scores": {
+    "Alice": 0.9,
+    "Bob": 0.7,
+    "Carol": 0.8,
+    "Dan": 0.6,
+    "Eve": 0.75
+  },
+  "document": [
+    "Our compny was founded in 2015.",
+    "We build software for small businesses.",
+    "The team is passionate and hardworking.",
+    "Customer satisfaction is our top priority."
+  ],
+  "edits": [
+    {
+      "editor": "Alice",
+      "sentence": 0,
+      "action": "rewrite",
+      "text": "Our company was founded in 2015."
+    },
+    {
+      "editor": "Bob",
+      "sentence": 0,
+      "action": "rewrite",
+      "text": "Our Company was founded in 2015."
+    },
+    {
+      "editor": "Carol",
+      "sentence": 0,
+      "action": "rewrite",
+      "text": "Founded in 2015, we are a young firm."
+    },
+    {
+      "editor": "Dan",
+      "sentence": 2,
+      "action": "delete"
+    },
+    {
+      "editor": "Eve",
+      "sentence": 2,
+      "action": "rewrite",
+      "text": "Our team is passionate and hardworking."
+    },
+    {
+      "editor": "Alice",
+      "sentence": 2,
+      "action": "keep"
+    },
+    {
+      "editor": "Bob",
+      "sentence": 3,
+      "action": "rewrite",
+      "text": "We put customers first, always."
+    },
+    {
+      "editor": "Carol",
+      "sentence": 3,
+      "action": "rewrite",
+      "text": "Customer happiness drives everything we do."
+    },
+    {
+      "editor": "Dan",
+      "sentence": 3,
+      "action": "rewrite",
+      "text": "We put customers first always."
+    }
+  ]
+}
