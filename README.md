@@ -18,10 +18,10 @@ python too_many_cooks.py assign sample_players.json
 ```
 
 ## Problem 1 — Five people editing one document
-Input: a base document + a list of edits (`rewrite` / `delete` / `keep`),
+**Input:** A base document + a list of edits (`rewrite` / `delete` / `keep`),
 each tagged with the editor's name. Optional per-editor trust scores.
 
-Decision logic (in order):
+**Decision logic (in order):**
 1. **Deletion needs a majority** of everyone who touched the sentence —
    one person can't delete a paragraph another just polished.
 2. **Similar rewrites are clustered** (difflib similarity ≥ 0.75) — two
@@ -31,7 +31,7 @@ Decision logic (in order):
 4. **Tie-break #1:** average editor trust score.
 5. **Tie-break #2:** the most conservative edit (closest to the original) wins.
 
-Output: one merged document in one voice, plus a decision log that
+**Output:** One merged document in one voice, plus a decision log that
 explains *why* each version won.
 
 ## Problem 2 — Eleven players who all want to be striker
