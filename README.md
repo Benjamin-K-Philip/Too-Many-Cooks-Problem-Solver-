@@ -60,7 +60,7 @@ lineup scores 963 (**+35%**), which is the whole moral of the story.
 ---
 
 
-## Output 
+## Output (in a GIF File Format)
  <img width="800" height="211" alt="Output GIF File" src="https://github.com/user-attachments/assets/4d8a765a-a236-41fa-811d-5ce2205467a5" />
 
 ---
