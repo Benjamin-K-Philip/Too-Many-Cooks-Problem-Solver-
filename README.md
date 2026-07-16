@@ -58,3 +58,9 @@ doesn't pay for it*.
 lineup scores 963 (**+35%**), which is the whole moral of the story.
 
 ---
+
+
+## Output 
+https://github.com/user-attachments/assets/0e5809de-6cd5-429b-938a-e9ba47748c0c
+
+---
